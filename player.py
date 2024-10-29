@@ -10,6 +10,7 @@ class Player(CircleShape):
         #pygame.sprite.Sprite.__init__(self, Player.containers)
         super().__init__(x,y,PLAYER_RADIUS)
         self.rotation = 0
+        self.shoot_timer = 0
         
     
     # in the player class
